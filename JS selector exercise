@@ -1,0 +1,5 @@
+document.getElementById("first");// retreive html code using DOM method
+document.querySelector("#first"); //# for id
+document.getElementsByClassName("special")
+document.querySelector(".special")//. for class
+document.getElementsByTagName("p")[0] // 0 is for the first p tag query 
