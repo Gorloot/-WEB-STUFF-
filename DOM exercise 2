@@ -33,6 +33,6 @@ if(isRed){
     document.body.style.background = "red";
     
 }
-isRed != isRed ;
+isRed = !isRed ;
 })
 ;
