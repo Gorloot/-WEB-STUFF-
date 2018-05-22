@@ -36,3 +36,13 @@ if(isRed){
 isRed = !isRed ;
 })
 ;
+
+//this method is to toggle between red and white
+var button = document.querySelector("button");
+var isRed = false;
+
+
+button.addEventListener("click",function(){
+    document.body.classList.toggle("red");
+});
+
