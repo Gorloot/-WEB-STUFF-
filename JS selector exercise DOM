@@ -66,3 +66,40 @@ li.addEventlistener("click",function()
  }
 );
 
+
+//eg 3
+Using "this" function to successfully change color for text of li
+
+
+var lis = document.queryselector("li");
+
+for(var i = 0 ; i<lis.length; i++) 
+{
+    lis[i].addEventlistener("click",function()
+    {
+       this.style.color="red";  
+    }
+
+)
+};
+
+
+
+
+var button = document.querySelector("buttom");
+var h1 = document.querySelector("h1");
+
+ button.addEventListener("click", changeHeadingOne); // declare a function but its just for passing it through dont want to execute it before buttom is clicked
+
+function changeHeadingOne() 
+    {
+      h1.textContent = "changed";
+    }
+
+
+
+
+
+
+
+
