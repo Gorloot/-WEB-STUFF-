@@ -19,3 +19,7 @@ for(vari=0;i<links.length;i++){link[i].style.border ="1px dashed red";link[i].st
 
 for(var i =0; i <links.length; i++){console.log(links[i].getAttribute("href"))};
 // this for loop retrieve every link on the webpage.
+
+
+for (var i =0; i <links.length; i ++){links[i].setAttribute("href","http://www.yahoo.com");}
+// this for loop changes href to yahoo.com (every)
