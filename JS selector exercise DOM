@@ -23,3 +23,46 @@ for(var i =0; i <links.length; i++){console.log(links[i].getAttribute("href"))};
 
 for (var i =0; i <links.length; i ++){links[i].setAttribute("href","http://www.yahoo.com");}
 // this for loop changes href to yahoo.com (every)
+
+
+
+//ADD EVENT LISTENER:
+
+element.addEventLister(type, functionToCall);
+
+
+var button = document.querySelector("button");
+button.addEventListener("click",function(){console.log("something")}
+);
+
+//eg
+<button>Click this </button>
+<p>hasn't been clicked </p>
+
+var button = document.querySelector("button");
+var paragraph = document.querySelector("p");
+
+//listerner
+// this changes the content of paragraph once the button is clicked
+
+button.addEventlistener("click", function(){paragraph.textContent = "its clicked!";});
+
+//eg 2
+
+//clicking will trigger alert first and then change the color of li to green
+
+var li = document.querySelector("li");
+
+li.addEventListener
+("click",function()
+ {
+    alert("li is clicked");
+ }
+);
+
+li.addEventlistener("click",function()
+ {
+     li.style.color ="green"
+ }
+);
+
