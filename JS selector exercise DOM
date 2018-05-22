@@ -15,3 +15,7 @@ for(var i =0; i<links.length; i++){console.log(links[i].textContent)};
 
 for(vari=0;i<links.length;i++){link[i].style.border ="1px dashed red";link[i].style.color = "green";}
 // this for loop adds every a tag on the webpages with 1px dashed red border and change to green color 
+
+
+for(var i =0; i <links.length; i++){console.log(links[i].getAttribute("href"))};
+// this for loop retrieve every link on the webpage.
