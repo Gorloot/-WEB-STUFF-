@@ -1,1 +1,38 @@
+//change background color
+//this switch background color back and forth between red and white
 
+var button = document.querySelector("button");
+var isRed = false;
+
+
+button.addEventListener("click",function(){
+if(isRed){
+    document.body.style.background = "white";
+    isRed = false;
+} else {
+
+    document.body.style.background = "red";
+    isRed = true;
+}
+
+})
+;
+
+// shorter way
+
+var button = document.querySelector("button");
+var isRed = false;
+
+
+button.addEventListener("click",function(){
+if(isRed){
+    document.body.style.background = "white";
+    
+} else {
+
+    document.body.style.background = "red";
+    
+}
+isRed != isRed ;
+})
+;
