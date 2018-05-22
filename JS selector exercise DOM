@@ -5,7 +5,8 @@ document.querySelector(".special")//. for class
 document.getElementsByTagName("p")[0] // 0 is for the first p tag query 
 
 
-
+var links = document.getElementsByTagName("a");
+//declare a var by manipulating a tag
 
 
 for(var i =0; i<links.length; i++){console.log(links[i].textContent)};
