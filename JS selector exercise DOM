@@ -7,5 +7,10 @@ document.getElementsByTagName("p")[0] // 0 is for the first p tag query
 
 
 
+
+for(var i =0; i<links.length; i++){console.log(links[i].textContent)};
+// this for loops shows the content of a tag
+
+
 for(vari=0;i<links.length;i++){link[i].style.border ="1px dashed red";link[i].style.color = "green";}
 // this for loop adds every a tag on the webpages with 1px dashed red border and change to green color 
