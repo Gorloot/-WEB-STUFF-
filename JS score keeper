@@ -48,3 +48,14 @@ function reset(){
 
 }
 ;
+
+//"change" works when value is typed in
+// textcontent = inputvalue allows real time change
+// set winning score as input value
+// Number set numbinput into variable from string
+numInput.addEventListener("change",function(){
+    winningPoint.textContent=numInput.value;
+    winningScore = Number(numInput.value);
+    reset()
+}
+);
