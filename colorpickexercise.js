@@ -35,3 +35,15 @@ for(var i = 0; i < squares.length; i++){
 
 );
 }
+
+function changeColors(color){
+    //loop through all squares
+    for(var i = 0; i <colors.length; i++){
+        squares[i].style.backgroundColor=color;
+    }
+}
+
+function pickcColor(){
+    var random = Math.floor(Math.random()*colors.length); // generate a random variable
+    return colors[random];
+}
